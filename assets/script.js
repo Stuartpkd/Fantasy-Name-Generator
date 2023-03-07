@@ -9,4 +9,4 @@ const setNames = () => {
     document.getElementById('generated-name').textContent = getNames();
 }
 
-document.getElementById('name-button').addEventListener('click', setNames());
+document.getElementById('name-button').addEventListener('click', setNames);
